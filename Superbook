@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubra a Bíblia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #3e8e41;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+    }
+    nav a:hover {
+      background-color: #2e7031;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    .container h2 {
+      color: #333;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Descubra a Bíblia com Alegria!</h1>
+  </header>
+  <nav>
+    <a href="#versiculo">Versículo do Dia</a>
+    <a href="#perguntas">Faça uma Pergunta</a>
+    <a href="#curiosidades">Curiosidades</a>
+  </nav>
+  <div class="container">
+    <h2>Bem-vindo ao Mundo da Bíblia!</h2>
+    <p>Escolha uma opção abaixo para começar:</p>
+    <a href="#versiculo" class="button">Versículo do Dia</a>
+    <a href="#perguntas" class="button">Faça uma Pergunta</a>
+    <a href="#curiosidades" class="button">Curiosidades Bíblicas</a>
+  </div>
+  <footer>
+    <p>&copy; 2024 Descubra a Bíblia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
